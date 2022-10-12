@@ -9,7 +9,7 @@ body{
  margin:0;
  padding:0;
 }
-.nav{ 
+.susu{ 
  margin:20px;
  padding:10px;
  height: 50px;
@@ -19,7 +19,7 @@ body{
  border: none;
 
 }
-#nav-content{
+#content1{
     display:flex;
     justify-content: space-between;
     width:30%;
@@ -37,7 +37,7 @@ body{
     margin: 20px;
     color: #fff;
 }
-.active{
+.button1{
     color: palevioletred;
 }
 .container{
@@ -51,7 +51,7 @@ body{
     border-radius:10px;
     margin-top:2rem;
 }
-.content{
+.text1{
 display:flex; 
 flex-direction:row-reverse;
 justify-content:space-evenly;
@@ -68,21 +68,21 @@ justify-content:space-evenly;
   display:flex;
   flex-direction:column;
 }
-.form-container{
+.action{
 display:flex;
 flex-direction:column;
 place-content: center;
 align-items: center;
 padding:1em
 }
-.form-container div >h1{
+.action div >h1{
     color:var(--pink )
 }
-.right{
+.passive{
     width:300px;
     color:var(--pink);
 }
-.right p{
+.passive p{
     color:var(--white)
 }
 .content-1{
@@ -127,13 +127,13 @@ input[type="submit"]{
       position:relative; left:80px; top:0px; 
       
   }
-  #follow-link a{
+  #foll a{
       color: #fff;
      justify-content: space-between;
      text-decoration: none;
      margin: 12px;
   }
-  .term{
+  .terminate{
       color: rgb(207, 199, 199);
       font-size: 14px;
   }
